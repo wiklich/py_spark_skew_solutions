@@ -1,0 +1,16 @@
+from py_spark_skew_solutions.demonstration.demonstration_factory import register_demonstration
+from py_spark_skew_solutions.demonstration.scenario_a_demonstration import ScenarioADemonstration
+from py_spark_skew_solutions.demonstration.scenario_b_demonstration import ScenarioBDemonstration
+from py_spark_skew_solutions.demonstration.scenario_c_demonstration import ScenarioCDemonstration
+from py_spark_skew_solutions.demonstration.scenario_d1_demonstration import ScenarioD1Demonstration
+from py_spark_skew_solutions.demonstration.scenario_d2_demonstration import ScenarioD2Demonstration
+from py_spark_skew_solutions.demonstration.scenario_d3_demonstration import ScenarioD3Demonstration
+from py_spark_skew_solutions.demonstration.scenario_d7_demonstration import ScenarioD7Demonstration
+
+register_demonstration("A", ScenarioADemonstration)
+register_demonstration("B", ScenarioBDemonstration)
+register_demonstration("C", ScenarioCDemonstration)
+register_demonstration("D1", ScenarioD1Demonstration)
+register_demonstration("D2", ScenarioD2Demonstration)
+register_demonstration("D3", ScenarioD3Demonstration)
+register_demonstration("D7", ScenarioD7Demonstration)

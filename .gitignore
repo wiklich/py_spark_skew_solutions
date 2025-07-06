@@ -1,0 +1,78 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyc~
+*.py[co]
+*$py.class
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# Poetry
+.poetry/
+build/
+dist/
+*.egg-info/
+poetry.lock
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# PySpark
+spark-*.jar
+*.log
+*.out
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+*.tar
+*.gz
+*.bz2
+*.lz4
+*.snappy
+
+# Spark local directories
+/spark-warehouse/
+/metastore_db/
+*.der
+*.pem
+*.key
+*.csr
+*.crt
+*.p7s
+*.p12
+*.jks
+*.keystore
+
+# Docker
+*.log
+*.pid
+*.sock
+logs/
+history/
+sparkmeasure_reports/
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*.iml
+*.ipr
+*.iws
+
+# Coverage reports
+htmlcov/
+.coverage
+.pytest_cache/
+coverage.xml
+nosetests.xml

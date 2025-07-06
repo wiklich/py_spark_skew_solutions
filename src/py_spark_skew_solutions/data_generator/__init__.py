@@ -1,0 +1,16 @@
+from py_spark_skew_solutions.data_generator.scenario_data_generator_factory import register_scenario
+from py_spark_skew_solutions.data_generator.scenario_a_data_generator import ScenarioADataGenerator
+from py_spark_skew_solutions.data_generator.scenario_b_data_generator import ScenarioBDataGenerator
+from py_spark_skew_solutions.data_generator.scenario_c_data_generator import ScenarioCDataGenerator
+from py_spark_skew_solutions.data_generator.scenario_d1_data_generator import ScenarioD1DataGenerator
+from py_spark_skew_solutions.data_generator.scenario_d2_data_generator import ScenarioD2DataGenerator
+from py_spark_skew_solutions.data_generator.scenario_d3_data_generator import ScenarioD3DataGenerator
+from py_spark_skew_solutions.data_generator.scenario_d7_data_generator import ScenarioD7DataGenerator
+
+register_scenario("A", ScenarioADataGenerator)
+register_scenario("B", ScenarioBDataGenerator)
+register_scenario("C", ScenarioCDataGenerator)
+register_scenario("D1", ScenarioD1DataGenerator)
+register_scenario("D2", ScenarioD2DataGenerator)
+register_scenario("D3", ScenarioD3DataGenerator)
+register_scenario("D7", ScenarioD7DataGenerator)
