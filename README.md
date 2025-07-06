@@ -1,6 +1,6 @@
-# Spark Skew Join Solution in PySpark
+# Spark Skew Join and Other Skews Solution in PySpark
 
-This project demonstrates and solves real-world **Spark Skew Join** problems using salting techniques and other optimization strategies in PySpark. It includes tools for generating skewed data, detecting skew patterns, and running demonstrations to compare performance with and without mitigation strategies.
+This project demonstrates and solves real-world **Spark Skew Join** and "**Others Skew**" problems using salting techniques and other optimization strategies in PySpark. It includes tools for generating skewed data, detecting skew patterns, and running demonstrations to compare performance with and without mitigation strategies.
 
 ---
 
